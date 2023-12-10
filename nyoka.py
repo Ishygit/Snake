@@ -14,8 +14,8 @@ green = (0, 255, 0)
 blue = (50, 153, 213)
 
 # Set the width and height of the display window
-dis_width = 800
-dis_height = 600
+dis_width = 1000
+dis_height = 800
 
 # Create the display window
 dis = pygame.display.set_mode((dis_width, dis_height))
@@ -24,7 +24,7 @@ pygame.display.set_caption('Snake Game')
 clock = pygame.time.Clock()
 
 snake_block = 10
-snake_speed = 15
+snake_speed = 20
 
 font_style = pygame.font.SysFont(None, 50)
 score_font = pygame.font.SysFont(None, 35)
